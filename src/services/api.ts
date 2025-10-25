@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'govt-conntect-backend.vercel.app/api';
+const BASE_URL = 'https://govt-conntect-backend.vercel.app/api';
 
 // ======================== Public Schemes ========================
 export const fetchSchemes = async (filters: Record<string, string> = {}) => {
